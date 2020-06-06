@@ -13,3 +13,8 @@ localhost:[your port number]/[foldername-if-you-have-changed]/superadmin/login
 <br>username: admin@admin.com
 <br>password: password
 
+<br>
+<br>
+Also run the composer update to install dependencies for vendor folder
+
+

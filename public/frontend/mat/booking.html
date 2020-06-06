@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!---- start-smoth-scrolling---->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <title>Booking</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="details.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="container">
+  <div class="col-md-6 col-sm-6">
+    <div class="heading bg21">
+      <img src="img/logo.png" style="max-height: auto; padding-bottom: 3px; width: 23%;">
+      <p>Inspired By the Himalayas</p>
+    </div>
+
+  </div>
+  <div class=" col-md-6 col-sm-6 bg16">
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner bg17">
+        <div class="item active">
+          <div class="bg18">
+            <p class="testimonial_para">
+              Lorem Ipsum ist ein einfacher Demo-Text für die Print- und Schriftindustrie.
+            </p>
+
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <div class="rating-point">
+              <p> 4.0</p>
+            </div>
+          </div>
+          <div class="footer-slider">
+            <h5><i class="fa fa-user-circle change-fa"></i>
+              -John Doe,<span class="reviewer_country">
+<span class="reviewer_country_flag sflag slang-pl  ">
+</span>
+Poland
+</span>
+            </h5>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="bg18">
+
+
+            <p class="testimonial_para">Lorem Ipsum ist ein einfacher Demo-Text für die Print- und
+              Schriftindustrie. </p>
+
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <div class="rating-point">
+              <p> 4.0</p>
+            </div>
+          </div>
+          <div class="footer-slider">
+            <h5><i class="fa fa-user-circle change-fa"></i>
+              -John Doe,<span class="reviewer_country">
+<span class="reviewer_country_flag sflag slang-pl  ">
+</span>
+Poland
+</span>
+            </h5>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">NEPAL <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li><a href="#">Some action</a></li>
+            <li><a href="#">Some other action</a></li>
+
+            <li class="dropdown-submenu">
+              <a tabindex="-1" href="#">Hover me for more options</a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">Second level</a></li>
+                <li class="dropdown-submenu">
+                  <a href="#">Even More..</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level</a></li>
+                    <li><a href="#">3rd level</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Second level</a></li>
+                <li><a href="#">Second level</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">BHUTAN <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li><a href="#">Some action</a></li>
+            <li><a href="#">Some other action</a></li>
+
+            <li class="dropdown-submenu">
+              <a tabindex="-1" href="#">Hover me for more options</a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">Second level</a></li>
+                <li class="dropdown-submenu">
+                  <a href="#">Even More..</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level</a></li>
+                    <li><a href="#">3rd level</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Second level</a></li>
+                <li><a href="#">Second level</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">TIBET <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li><a href="#">Some action</a></li>
+            <li><a href="#">Some other action</a></li>
+
+            <li class="dropdown-submenu">
+              <a tabindex="-1" href="#">Hover me for more options</a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">Second level</a></li>
+                <li class="dropdown-submenu">
+                  <a href="#">Even More..</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level</a></li>
+                    <li><a href="#">3rd level</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Second level</a></li>
+                <li><a href="#">Second level</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+             aria-expanded="false">MULTI-COUNTRY <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            <li><a href="#">Some action</a></li>
+            <li><a href="#">Some other action</a></li>
+
+            <li class="dropdown-submenu">
+              <a tabindex="-1" href="#">Hover me for more options</a>
+              <ul class="dropdown-menu">
+                <li><a tabindex="-1" href="#">Second level</a></li>
+                <li class="dropdown-submenu">
+                  <a href="#">Even More..</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">3rd level</a></li>
+                    <li><a href="#">3rd level</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Second level</a></li>
+                <li><a href="#">Second level</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="blog-listing.html">Blog</a></li>
+        <li><a href="about-us.html">ABOUT US</a></li>
+        <li><a href="contact-us.html">CONTACT US</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-right change">
+        <div class="form-group">
+          <input type="text" class="form-control change-background" placeholder="Search">
+        </div>
+
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<section class="breadcrumb-area" data-overlay="5" style="background-image: url(img/detail_img/detail-banner.jpg)">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="breadcrumb-wrapper text-center">
+          <h3>Booking</h3>
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="breadcrumb-item active">Booking</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section role="main" id="main" class="inner-page">
+  <div class="container-fluid size-maintain">
+    <div class="row padding-section-one padding-booking">
+      <div class="col-lg-12 col-md-12 col-xs-12 col-xs-12 form-padding ">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb30 text-center">
+          <h2 class="title-pagee"> Travel Reservation Booking Form</h2>
+        </div>
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mb30">
+          <div class="tour-booking-form">
+            <form class="form-booking">
+              <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                  <h4 class="tour-form-title">Your Travel Plan Detail</h4>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label required" for="select">Departure Date</label>
+                    <div class="select">
+                      <select id="select" name="select" class="form-control">
+                        <option value="">Fixed Departure date</option>
+                        <option value="">Closed-October 13, 2018 - October 21, 2018</option>
+                        <option value="">Closed-October 13, 2018 - October 21, 2018</option>
+                        <option value="">Closed-October 13, 2018 - October 21, 2018</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="datepicker">Trip Start Date</label>
+                    <div class="input-group">
+                      <input id="datepicker" name="datepicker" type="text" placeholder="Date" class="form-control" required>
+                      <span class="input-group-addon"><i class="fa fa-calendar"></i></span> </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label required" for="select">Number of Persons:</label>
+                    <div class="select">
+                      <select id="select" name="select" class="form-control">
+                        <option value="">Number of Persons:</option>
+                        <option value="">01</option>
+                        <option value="">02</option>
+                        <option value="">03</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label required" for="select">Budgets</label>
+                    <div class="select">
+                      <select id="select" name="select" class="form-control">
+                        <option value="">Stadard</option>
+                        <option value="">Stadard</option>
+                        <option value="">Stadard</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt30">
+                  <h4 class="tour-form-title">Your Travel Plan Detail</h4>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="name">Name</label>
+                    <input id="name" type="text" placeholder="First Name" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <div class="form-group">
+                      <h3 class="size1">Choose your gender</h3>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio" checked>Male
+                      </label>
+                      <label class="radio-inline">
+                        <input type="radio" name="optradio">Female
+                      </label>
+                   </div>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="Phone">Phone Number</label>
+                    <input id="Phone" placeholder="Phone Number" class="form-control" required="" type="text">
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="mobile">Mobile Number</label>
+                    <input id="mobile" placeholder="Mobile Number" class="form-control" required="" type="text">
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="email"> Email</label>
+                    <input id="email" type="text" placeholder="xxxx@xxxx.xxx" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="country"> Country</label>
+                    <input id="country" type="text" placeholder="Nepal" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="city">City/State</label>
+                    <input id="city" type="text" placeholder="Kathmandu" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="code">Zip/Postal Code</label>
+                    <input id="code" type="text" placeholder="44600" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="birth"> Date of birth</label>
+                    <input id="birth" type="text" placeholder="0123456" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="Passport"> Passport No:</label>
+                    <input id="passport" type="text" placeholder="123456" class="form-control" required>
+                  </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="city">Place of issue </label>
+                    <input id="city" type="text" placeholder="kathmandu" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="issue"> Issue Date </label>
+                    <input id="issue" type="text" placeholder="2015/10/15" class="form-control" required>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="expire">Expiration Date </label>
+                    <input id="expire" type="text" placeholder="2020/10/15" class="form-control" required>
+                  </div>
+                </div>
+
+
+
+
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <div class="form-group">
+                    <label class="control-label" for="textarea">Send Message</label>
+                    <textarea class="form-control" id="textarea" name="textarea" rows="4" placeholder="Write Your Requirements"></textarea>
+                  </div>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                  <button type="submit" name="singlebutton" class="btn btn-primary change-button">Send Enquiry</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+</div>
+          <div class="clearfix"></div>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-clear side-pading ">
+            <div class="map-locaton">
+              <iframe class="iframe-size" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3088.5590145573924!2d-76.5687
+                  3184907506!3d39.275571237603025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c803f3a8fe1377%3A0x95088fa0a61be407!2s1st+Mariner+Tow
+                  er%2C+1501+S+Clinton+St%2C+Baltimore%2C+MD+21224!5e0!3m2!1sen!2sus!4v1416840390267"> </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer id="myFooter">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h5>Get started</h5>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sign up</a></li>
+          <li><a href="#">Downloads</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>About us</h5>
+        <ul>
+          <li><a href="#">Company Information</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Help desk</a></li>
+          <li><a href="#">Forums</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Here we use the Google Embed API to show Google Maps. -->
+    <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 bg34">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28259.704027874577!2d85.29542335350372!3d27.70298739511383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+         1!3m3!1m2!1s0x39eb19b3711ea43b%3A0x40bb6dbd26e0664!2sMountain+Adventure+Trekking+Pvt.+Ltd.!5e0!3m2!1sen!2snp!4v1537812226195"
+                  width="100%" height="206" float="right" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-8 bg35">
+          <p>Recommended on</p>
+          <a href="https://www.tripadvisor.com/Attraction_Review-g293890-d12095059-Reviews-Mountain_Adventure_Trekking_Pvt_Ltd-Kathmandu_Kathmandu_Valley_Bagmati_Zone_Cent.html" target="_blank"><img src="img/tripadvisor.png" class="img-fluid" style="top: 10px;">
+          </a>
+          <img src="img/aniversary.png" class="img-fluid bg38" style="top: 10px;">
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="social-networks">
+    <a href="#" class="twitter"><i class="fab fa-twitter"></i></i></a>
+    <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" class="google"><i class="fab fa-google-plus"></i></a>
+  </div>
+  <div class="footer-copyright">
+    <p>© 2018 Copyright Text </p>
+  </div>
+</footer>
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(function () {
+    $('#datetimepicker1').datetimepicker();
+  });
+</script>
+<script></script>
+</body>
+</html>

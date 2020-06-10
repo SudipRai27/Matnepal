@@ -1,6 +1,6 @@
 # Matnepal
-A travel website (Frontend and Backend Included)
-#Getting Started
+A travel website (Frontend and Backend Included) made with laravel 5.5 <br>
+
 <br>Clone the repo and then import the database named matnepal.sql. Once everything is done, visit the website on the link:
 <br>
 Frontend
